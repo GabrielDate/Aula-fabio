@@ -26,6 +26,31 @@ public class Main {
         System.out.println(nome + "seu IMC é: " + res);
         
         
+        if(res <=18.5){
+            System.out.println("Você esta abaixo do peso.");
+                   
+        }else if (res >= 18.5 && res <=24.9){
+         System.out.println("Você esta com o Peso normal.");
+        
+        }else if (res >=25.0 && res <=29.9){
+            System.out.println("Você esta com Sobrepeso.");
+        
+        
+        }else if (res >=30.0 && res <=34.9){
+            System.out.println("Você esta com Obesidade leve.");
+        
+        
+        }else if (res >=35.0 && res <=39.9){
+            System.out.println("Você esta com Obesidade Moderada.");
+        
+        
+        }else {
+            System.out.println("Você esta com Obesidade móbida");
+        
+        
+        }
+        
+        
 
     }
     
